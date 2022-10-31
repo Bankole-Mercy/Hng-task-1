@@ -19,7 +19,7 @@ const info = {
 
   app.get("/get-info",(req ,res) => 
   {
-      res.status(200).jsonp({...info})
+      res.status(200).json({...info})
   }) 
 
   
