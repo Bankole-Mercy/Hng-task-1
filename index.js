@@ -33,8 +33,8 @@ const info = {
 
 
 
-app.listen(port, () => {
-    console.log(`Example app listening on port http://localhost:${port}`);
+app.listen(() => {
+    console.log(`Example app listening on port http://localhost:`);
   });
 
 
