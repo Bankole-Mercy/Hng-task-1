@@ -19,9 +19,11 @@ const info = {
 
   app.get("/get-info",(req ,res) => 
   {
-    //   
       return res.status(200).json({...info})
   }) 
+  app.get("/", (req, res)=>{
+    res.send("Working")
+  })
 
   
   
