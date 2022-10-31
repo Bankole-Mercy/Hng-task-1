@@ -19,6 +19,7 @@ const info = {
 
   app.get("/get-info",(req ,res) => 
   {
+    //   
       return res.status(200).json({...info})
   }) 
 
